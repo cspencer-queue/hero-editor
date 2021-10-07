@@ -1,5 +1,6 @@
-input {
-  padding: .5rem;
+export interface Hero {
+  id: number;
+  name: string;
 }
 
 
