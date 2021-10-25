@@ -19,7 +19,7 @@ export class HeroDetailComponent implements OnInit {
     private location: Location
   ) {}
 
-  ngOnInit() void {
+  ngOnInit(): void {
     this.getHero();
   }
 
